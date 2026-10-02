@@ -1,0 +1,32 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: bugzyro-crm-db
+    environment:
+      MYSQL_ROOT_PASSWORD: bugzyro_root
+      MYSQL_DATABASE: bugzyro
+      MYSQL_USER: bugzyro
+      MYSQL_PASSWORD: bugzyro
+    ports:
+      - "127.0.0.1:3307:3306"
+    volumes:
+      - bugzyro_db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  web:
+    build: .
+    container_name: bugzyro-crm-web
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8080:80"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  bugzyro_db_data:
