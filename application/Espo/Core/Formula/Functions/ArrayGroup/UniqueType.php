@@ -1,30 +1,19 @@
 <?php
 /************************************************************************
- * This file is part of EspoCRM.
+ * BugZyro Enterprise System
  *
- * EspoCRM – Open Source CRM application.
- * Copyright (C) 2014-2026 EspoCRM, Inc.
- * Website: https://www.espocrm.com
+ * Copyright (C) 2026 Ethos Dive Software. All Rights Reserved.
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Developed and engineered by Ethos Dive Software.
+ * Intellectual property of Ethos Dive Software, with rights of use
+ * granted exclusively to BugZyro.
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program. If not, see <https://www.gnu.org/licenses/>.
- *
- * The interactive user interfaces in modified source and object code versions
- * of this program must display Appropriate Legal Notices, as required under
- * Section 5 of the GNU Affero General Public License version 3.
- *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
- * these Appropriate Legal Notices must retain the display of the "EspoCRM" word.
+ * PROPRIETARY AND CONFIDENTIAL:
+ * This file and the underlying source code are proprietary assets of
+ * Ethos Dive Software. Unauthorized copying, distribution, modification,
+ * reverse engineering, or public display of this software, via any medium,
+ * is strictly prohibited without prior written authorization from
+ * Ethos Dive Software.
  ************************************************************************/
 
 namespace Espo\Core\Formula\Functions\ArrayGroup;
