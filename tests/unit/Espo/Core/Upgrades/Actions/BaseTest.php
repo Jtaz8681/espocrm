@@ -190,7 +190,7 @@ class BaseTest extends TestCase
             "acceptableVersions": [
             ],
             "releaseDate": "2014-09-25",
-            "author": "EspoCRM",
+            "author": "BugZyro",
             "description": "My Description"
         }';
 

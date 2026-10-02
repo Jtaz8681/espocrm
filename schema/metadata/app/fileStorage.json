@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/fileStorage.json",
+    "$id": "#",
     "title": "app/fileStorage",
     "description": "File storages.",
     "type": "object",

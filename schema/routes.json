@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/routes.json",
+    "$id": "#",
     "title": "routes",
     "description": "Backend API routes.",
     "type": "array",

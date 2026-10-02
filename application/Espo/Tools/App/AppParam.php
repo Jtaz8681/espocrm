@@ -21,7 +21,7 @@ namespace Espo\Tools\App;
 /**
  * App parameter to be passed to the frontend.
  *
- * @see https://docs.espocrm.com/development/app-params/
+ * @see #
  */
 interface AppParam
 {

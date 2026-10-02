@@ -29,7 +29,7 @@ return [
                 'firstName' => '',
                 'lastName' => 'Admin',
                 'title' => '',
-                'emailAddress' => 'demo@espocrm.com',
+                'emailAddress' => 'demo@bugzyro.com',
                 'phoneNumberData' => [
                     (object) [
                         'phoneNumber' => '111',

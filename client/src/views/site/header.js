@@ -21,7 +21,7 @@ class HeaderSiteView extends View {
 
     template = 'site/header'
 
-    title = 'EspoCRM'
+    title = 'BugZyro'
     navbarView = 'views/site/navbar'
     customViewPath = ['clientDefs', 'App', 'navbarView']
 

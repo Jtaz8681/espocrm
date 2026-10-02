@@ -35,7 +35,7 @@ use RuntimeException;
 
 /**
  * DI container for services. Lazy initialization is used. Services are instantiated only once.
- * @see https://docs.espocrm.com/development/di/.
+ * @see #
  */
 class Container implements ContainerInterface
 {

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/selectDefs.json",
+    "$id": "#",
     "title": "selectDefs",
     "description": "Select framework definitions for a scope.",
     "type": "object",

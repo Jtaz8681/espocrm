@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/appParams.json",
+    "$id": "#",
     "title": "app/appParams",
-    "description": "AppParams framework definitions. A name => Object map. https://docs.espocrm.com/development/app-params/",
+    "description": "AppParams framework definitions. A name => Object map. #",
     "type": "object",
     "additionalProperties": {
         "type": "object",

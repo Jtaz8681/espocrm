@@ -1,1 +1,1 @@
-EspoCRM-brukerens tilgangsinformasjon
+BugZyro-brukerens tilgangsinformasjon

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/jsLibs.json",
+    "$id": "#",
     "title": "app/jsLibs",
     "description": "JS libraries definitions for the loader.",
     "type": "object",

@@ -68,7 +68,7 @@ class BeforeUpgrade
         }
 
         $message =
-            "EspoCRM 7.4 is not compatible with '{$name}' extension of versions lower than {$minVersion}. " .
+            "BugZyro 7.4 is not compatible with '{$name}' extension of versions lower than {$minVersion}. " .
             "Please upgrade the extension or uninstall it.";
 
         $errorMessageList[] = $message;

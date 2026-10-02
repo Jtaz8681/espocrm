@@ -70,7 +70,7 @@ class ApiClient
     }
 
     /**
-     * Send request to EspoCRM.
+     * Send request to BugZyro.
      *
      * @param string $method
      * @param string $action

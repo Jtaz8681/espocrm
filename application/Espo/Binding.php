@@ -26,7 +26,7 @@ use Espo\Core\Binding\Key\NamedClassKey;
  * Default binding for the dependency injection framework. Custom binding should be set up in
  * `Espo\Modules\{ModuleName}\Binding` or `Espo\Custom\Binding`.
  *
- * @link https://docs.espocrm.com/development/di/#binding.
+ * @link #
  */
 class Binding implements BindingProcessor
 {

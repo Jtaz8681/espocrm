@@ -60,7 +60,7 @@ require_once('core/InstallerConfig.php');
 $installerConfig = new InstallerConfig();
 
 if ($installerConfig->get('isInstalled')) {
-    fwrite(\STDOUT, "Error: EspoCRM is already installed.\n");
+    fwrite(\STDOUT, "Error: BugZyro is already installed.\n");
 
     exit;
 }

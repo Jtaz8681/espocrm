@@ -1,10 +1,10 @@
 {
-  "name": "espocrm",
+  "name": "bugzyro",
   "version": "10.0.9",
   "description": "Open-source CRM.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/espocrm/espocrm.git"
+    "url": "https://github.com/bugzyro/bugzyro.git"
   },
   "scripts": {
     "postinstall": "node js/scripts/postinstall-cleanup && node js/scripts/prepare-lib-original.js",
@@ -16,8 +16,8 @@
     "unit-tests": "php vendor/bin/phpunit ./tests/unit",
     "integration-tests": "php vendor/bin/phpunit ./tests/integration"
   },
-  "homepage": "https://www.espocrm.com",
-  "author": "EspoCRM, Inc.",
+  "homepage": "#",
+  "author": "BugZyro, Inc.",
   "contributors": [
     {
       "name": "Yurii Kuznietsov"
@@ -39,7 +39,7 @@
     "@types/underscore": "^1.13.0",
     "archiver": "^7",
     "chromedriver": "^127.0.1",
-    "espo-frontend-build-tools": "github:espocrm/frontend-build-tools#0.3.2",
+    "espo-frontend-build-tools": "u{1}DEP0u{2}",
     "fstream": ">=1.0.12",
     "glob": "^13.0.6",
     "grunt": "^1.5.3",
@@ -71,7 +71,7 @@
     "bootstrap": "github:yurikuzn/espo-bootstrap#0.1.2",
     "bootstrap-colorpicker": "^2.5.2",
     "bootstrap-datepicker": "^1.9.0",
-    "bullbone": "github:espocrm/bullbone#1.5.5",
+    "bullbone": "u{1}DEP0u{2}",
     "cronstrue": "^1.114.0",
     "cropper": "^0.7.9",
     "devbridge-autocomplete": "^2.0.0",

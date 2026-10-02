@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/language.json",
+    "$id": "#",
     "title": "app/language",
     "description": "Application languages.",
     "type": "object",

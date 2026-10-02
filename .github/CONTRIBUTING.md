@@ -10,20 +10,20 @@ Try not to use phrases like "very big bug", "huge issue", "useless feature", etc
 #### No support
 
 Note that we don't provide developer help or any kind of support on GitHub.
-For this, please use our [forum](https://forum.espocrm.com).
+For this, please use our [forum](#).
 
 #### Forum
 
-If you are very new to EspoCRM, it's probable that an issue you ran into is not a bug.
-Consider creating a topic on our [forum](https://forum.espocrm.com/forum/general) instead.
+If you are very new to BugZyro, it's probable that an issue you ran into is not a bug.
+Consider creating a topic on our [forum](#) instead.
 
 #### Upgrade issues
 
-For upgrade-related issues, create a topic on the forum in the appropriate [section](https://forum.espocrm.com/forum/installation-and-upgrade-help). Upgrade-related issues posted on GitHub are removed.
+For upgrade-related issues, create a topic on the forum in the appropriate [section](#). Upgrade-related issues posted on GitHub are removed.
 
 #### Project's best interest
 
-The issue tracker is for the benefit of the EspoCRM project. The project maintainers are going to handle issues in the project's best interest.
+The issue tracker is for the benefit of the BugZyro project. The project maintainers are going to handle issues in the project's best interest.
 The maintainers have right to close issues without explanation.
 
 #### Off-topic
@@ -43,7 +43,7 @@ We are open for contributions that are bug fixes and small improvements. If you 
 that is not a small fix, please reach out to maintainers before submitting your PR
 (by creating a GitHub issue or a forum post).
 
-Before we can merge your pull request, you need to accept our CLA [here](https://github.com/espocrm/cla).
+Before we can merge your pull request, you need to accept our CLA [here](https://github.com/bugzyro/cla).
 
 It's desirable that one PR solves one specific problem. Do not include code style changes to PRs
 (unless the main purpose of the PR is a code style fix).

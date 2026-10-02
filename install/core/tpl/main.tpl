@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <div style="text-align: center">
                     <div class="content-img margin-bottom">
-                        <img class="devices" src="img/start.png" alt="EspoCRM" style="border-radius: var(--border-radius);">
+                        <img class="devices" src="img/start.png" alt="BugZyro" style="border-radius: var(--border-radius);">
                     </div>
                     {$langs['labels']['Main page header']}
                 </div>
@@ -47,7 +47,7 @@
             <div class="cell cell-website col-md-4" style="padding-top: 24px; text-align: right;">
                 <a
                     target="_blank"
-                    href="https://www.espocrm.com/documentation/administration/installation/"
+                    href="#"
                     style="font-weight: 600;"
                 >{$langs['labels']['Installation Guide']}</a>
             </div>

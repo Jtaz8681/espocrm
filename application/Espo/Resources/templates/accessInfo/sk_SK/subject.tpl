@@ -1,1 +1,1 @@
-Info o používateľskom prístupe EspoCRM
+Info o používateľskom prístupe BugZyro

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/pdfDefs.json",
+    "$id": "#",
     "title": "pdfDefs",
     "description": "PDF printing definitions for a scope.",
     "type": "object",

@@ -1,1 +1,1 @@
-EspoCRM codice di autenticazione
+BugZyro codice di autenticazione

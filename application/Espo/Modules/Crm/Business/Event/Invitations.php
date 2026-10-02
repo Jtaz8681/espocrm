@@ -245,7 +245,7 @@ class Invitations
             $uid = $entity->getUid() ?? $uid;
         }
 
-        $ics = new Ics('//EspoCRM//EspoCRM Calendar//EN', [
+        $ics = new Ics('//BugZyro//BugZyro Calendar//EN', [
             'method' => $method,
             'status' => $status,
             'startDate' => strtotime($entity->get('dateStart')),

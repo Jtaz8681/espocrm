@@ -26,6 +26,6 @@ class ApiIndex
 {
     public function getActionIndex(Request $request, Response $response): void
     {
-        $response->writeBody(Json::encode("EspoCRM REST API"));
+        $response->writeBody(Json::encode("BugZyro REST API"));
     }
 }

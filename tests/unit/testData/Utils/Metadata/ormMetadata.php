@@ -1543,7 +1543,7 @@ return array (
       'outboundEmailFromName' => 
       array (
         'type' => 'varchar',
-        'default' => 'EspoCRM',
+        'default' => 'BugZyro',
         'len' => 255,
       ),
       'outboundEmailFromAddress' => 

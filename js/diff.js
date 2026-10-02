@@ -172,13 +172,13 @@ class Diff
             const composerData = require(espoPath + '/composer.json') || {};
 
             const currentPath = espoPath;
-            const buildRelPath = 'build/EspoCRM-' + version;
+            const buildRelPath = 'build/BugZyro-' + version;
             const buildPath = currentPath + '/' + buildRelPath;
             const diffFilePath = currentPath + '/build/diff';
             const diffBeforeUpgradeFolderPath = currentPath + '/build/diffBeforeUpgrade';
 
             const tempFolderPath = currentPath + '/build/upgradeTmp';
-            const folderName = 'EspoCRM-upgrade-' + acceptedVersionName + '-to-' + version;
+            const folderName = 'BugZyro-upgrade-' + acceptedVersionName + '-to-' + version;
             const upgradePath = currentPath + '/build/' + folderName;
             const zipPath = currentPath + '/build/' + folderName + '.zip';
             let upgradeDataFolder = versionFrom + '-' + version;
@@ -218,7 +218,7 @@ class Diff
 
             if (!fs.existsSync(buildPath)) {
                 throw new Error(
-                    "EspoCRM is not built. You need to run 'grunt' before building an upgrade package."
+                    "BugZyro is not built. You need to run 'grunt' before building an upgrade package."
                 );
             }
 
@@ -332,13 +332,13 @@ class Diff
                 const upgradeName = acceptedVersionName + " to " + version;
 
                 const manifestData = {
-                    "name": "EspoCRM Upgrade " + upgradeName,
+                    "name": "BugZyro Upgrade " + upgradeName,
                     "type": "upgrade",
                     "version": version,
                     "acceptableVersions": versionList,
                     "php": [composerData.require.php],
                     "releaseDate": date,
-                    "author": "EspoCRM",
+                    "author": "BugZyro",
                     "description": "",
                     "delete": deleteFileList,
                 };

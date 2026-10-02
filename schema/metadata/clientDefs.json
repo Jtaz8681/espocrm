@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/clientDefs.json",
+    "$id": "#",
     "title": "clientDefs",
     "description": "Front-end definitions for a scope.",
     "type": "object",
@@ -118,7 +118,7 @@
             "description": "A selected detail view mode will be stored in the browser storage for a user a per record."
         },
         "saveErrorHandlers": {
-            "description": "Save error handlers. https://docs.espocrm.com/development/frontend/save-error-handlers/",
+            "description": "Save error handlers. #",
             "type": "object",
             "additionalProperties": {
                 "type": "string"
@@ -152,7 +152,7 @@
                     }
                 ]
             },
-            "description": "View setup handlers. https://docs.espocrm.com/development/frontend/view-setup-handlers/"
+            "description": "View setup handlers. #"
         },
         "rowActionList": {
             "description": "Row actions for the main list view.",
@@ -322,7 +322,7 @@
             "description": "An entity attribute to be used to display the record name on views. As of v9.1."
         },
         "menu": {
-            "description": "Top-right menu for views (list, detail, edit). Action types: buttons, dropdowns. https://docs.espocrm.com/development/custom-buttons/",
+            "description": "Top-right menu for views (list, detail, edit). Action types: buttons, dropdowns. #",
             "type": "object",
             "propertyNames": {
                 "enum": [

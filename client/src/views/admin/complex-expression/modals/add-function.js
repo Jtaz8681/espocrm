@@ -40,7 +40,7 @@ export default class ComplexExpressionAddFunctionModalView extends ModalView {
         });
 
         this.headerText = this.translate('Function');
-        this.documentationUrl = 'https://docs.espocrm.com/user-guide/complex-expressions/';
+        this.documentationUrl = '#';
 
         this.functionDataList = this.options.functionDataList ||
             this.getMetadata().get('app.complexExpression.functionList') || [];

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/scheduledJobs.json",
+    "$id": "#",
     "title": "app/scheduledJobs",
     "description": "Scheduled jobs definitions. Defined scheduled job will be available for the admin when creating a scheduled job.",
     "type": "object",

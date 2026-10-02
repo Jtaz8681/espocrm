@@ -1,1 +1,1 @@
-EspoCRM Portal Access Info
+BugZyro Portal Access Info

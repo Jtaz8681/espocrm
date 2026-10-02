@@ -1108,8 +1108,8 @@ class Manager
 
     /**
      * Get exists path.
-     * Example: If `/var/www/espocrm/custom/someFile.php` file doesn't exist,
-     * result will be `/var/www/espocrm/custom`.
+     * Example: If `/var/www/bugzyro/custom/someFile.php` file doesn't exist,
+     * result will be `/var/www/bugzyro/custom`.
      */
     private function getExistsPath(string $path): string
     {

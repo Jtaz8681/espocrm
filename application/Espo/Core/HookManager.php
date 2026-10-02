@@ -36,7 +36,7 @@ use Espo\Core\Utils\Util;
  * - `Espo\Hooks\{EntityType}\MyHook` – an entity type specific hook;
  * - `Espo\Modules\{ModuleName}\Hooks\{EntityType}\MyHook` – in a module.
  *
- * @link https://docs.espocrm.com/development/hooks/
+ * @link #
  */
 class HookManager
 {

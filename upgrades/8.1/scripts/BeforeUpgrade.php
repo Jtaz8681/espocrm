@@ -43,7 +43,7 @@ class BeforeUpgrade
         }
 
         $msg = "You need to remove logger.handlerList from the `data/config-internal.php` before upgrading. " .
-            "In EspoCRM v8.1, Monolog library was updated, custom log handlers may be incompatible. ".
+            "In BugZyro v8.1, Monolog library was updated, custom log handlers may be incompatible. ".
             "You will be able to return the handlers back after the upgrade.";
 
         throw new Error($msg);

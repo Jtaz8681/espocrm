@@ -222,7 +222,7 @@ abstract class Base
     }
 
     /**
-     * Check if version of upgrade/extension is acceptable to current version of EspoCRM.
+     * Check if version of upgrade/extension is acceptable to current version of BugZyro.
      *
      * @throws Error
      */
@@ -265,7 +265,7 @@ abstract class Base
             $res &= $this->checkVersions(
                 $manifest['acceptableVersions'],
                 $version,
-                'Your EspoCRM version ({version}) is not supported. Required version: {requiredVersion}.'
+                'Your BugZyro version ({version}) is not supported. Required version: {requiredVersion}.'
             );
         }
 

@@ -1,1 +1,1 @@
-EspoCRM Korisnik - podaci za pristup
+BugZyro Korisnik - podaci za pristup

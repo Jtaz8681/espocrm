@@ -74,7 +74,7 @@ class Uninstall extends Base
         if (!isset($data['skipSystemRebuild']) || !$data['skipSystemRebuild']) {
             if (!$this->systemRebuild()) {
                 $this->throwErrorAndRemovePackage(
-                    'Error occurred while EspoCRM rebuild. More detail in the log.'
+                    'Error occurred while BugZyro rebuild. More detail in the log.'
                 );
             }
         }

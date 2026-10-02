@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/entityManagerParams.json",
+    "$id": "#",
     "title": "app/entityManagerParams",
     "description": "Additional entity parameters. Defined parameters are available in the entity manager. Global, template type and entity type specific parameters can be defined.",
     "type": "object",

@@ -40,7 +40,7 @@ export default class extends ModalView {
 
         this.headerText = this.translate('Function');
 
-        this.documentationUrl = 'https://docs.espocrm.com/administration/formula/';
+        this.documentationUrl = '#';
 
         this.functionDataList = this.options.functionDataList ||
             this.getMetadata().get('app.formula.functionList') || [];

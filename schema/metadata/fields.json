@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/fields.json",
+    "$id": "#",
     "title": "fields",
     "description": "Field definitions.",
     "type": "object",

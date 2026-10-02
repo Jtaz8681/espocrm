@@ -62,7 +62,7 @@ export interface ViewSchema {
 /**
  * A base view. All views should extend this class.
  *
- * @see https://docs.espocrm.com/development/view/
+ * @see #
  */
 export default class View<S extends ViewSchema = ViewSchema> extends BullView<S['model'], S['collection']> {
 
@@ -316,7 +316,7 @@ export default class View<S extends ViewSchema = ViewSchema> extends BullView<S[
      * Update a page title. Supposed to be overridden if needed.
      */
     updatePageTitle() {
-        const title = this.getConfig().get('applicationName') || 'EspoCRM';
+        const title = this.getConfig().get('applicationName') || 'BugZyro';
 
         this.setPageTitle(title);
     }

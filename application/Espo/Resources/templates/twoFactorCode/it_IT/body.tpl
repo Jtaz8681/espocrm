@@ -1,3 +1,3 @@
-<p>Inserisci questo codice per accedere a EspoCRM.</p>
+<p>Inserisci questo codice per accedere a BugZyro.</p>
 
 <p>Codice: <strong>{{code}}</strong></p>

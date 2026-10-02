@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/adminPanel.json",
+    "$id": "#",
     "title": "app/adminPanel",
     "description": "Defines what to display on the Administration page.",
     "type": "object",
@@ -51,7 +51,7 @@
                                 },
                                 "recordView": {
                                     "type": "string",
-                                    "description": "A record view. Optional. Needed if you defined the URL like #Admin/{myName}. The record view displays settings fields. https://docs.espocrm.com/development/custom-config-parameters/"
+                                    "description": "A record view. Optional. Needed if you defined the URL like #Admin/{myName}. The record view displays settings fields. #"
                                 },
                                 "view": {
                                     "type": "string",

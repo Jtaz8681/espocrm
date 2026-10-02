@@ -5,7 +5,7 @@
                 <div class="panel-body">
                     <div class="likes">
                         <p>
-                            {$langs['labels']['Congratulation! Welcome to EspoCRM']}
+                            {$langs['labels']['Congratulation! Welcome to BugZyro']}
                         </p>
                     </div>
 
@@ -17,7 +17,7 @@
                         </pre>
 
                         <p>
-                            {assign var="link" value="<a target=\"_blank\" href=\"https://www.espocrm.com/documentation/administration/server-configuration/#user-content-setup-a-crontab\">{$langs['labels']['Setup instructions']}</a>"}
+                            {assign var="link" value="<a target=\"_blank\" href=\"#\">{$langs['labels']['Setup instructions']}</a>"}
 
                             {assign var="message" value="{$langs['labels']['Crontab setup instructions']|replace:'{SETUP_INSTRUCTIONS}':$link}"}
                             {$message}
@@ -33,7 +33,7 @@
 </div>
 
 <footer class="modal-footer">
-    <button class="btn btn-primary" type="button" id="start">{$langs['labels']['Go to EspoCRM']}</button>
+    <button class="btn btn-primary" type="button" id="start">{$langs['labels']['Go to BugZyro']}</button>
 </footer>
 <script>
     {literal}

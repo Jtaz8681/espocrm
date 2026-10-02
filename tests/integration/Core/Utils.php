@@ -23,7 +23,7 @@ use RuntimeException;
 class Utils
 {
     /**
-     * Get the latest EspoCRM built path.
+     * Get the latest BugZyro built path.
      *
      * @param string $path
      * @return ?string
@@ -43,7 +43,7 @@ class Utils
                 continue;
             }
 
-            $pattern = '/^EspoCRM-([0-9]+)\.([0-9]+)(?:\.([0-9]+))?(?:-((a|alpha|b|beta|pre|rc)([0-9]+)?)?)?$/';
+            $pattern = '/^BugZyro-([0-9]+)\.([0-9]+)(?:\.([0-9]+))?(?:-((a|alpha|b|beta|pre|rc)([0-9]+)?)?)?$/';
 
             if (preg_match($pattern, $folderName)) {
                 $archives[] = $folderName;
@@ -70,7 +70,7 @@ class Utils
 
         $ma = $mb = [];
 
-        $pattern = '/^EspoCRM-([0-9]+)\.([0-9]+)(?:\.([0-9]+))?(?:-((a|alpha|b|beta|pre|rc)[0-9]+)?)?$/';
+        $pattern = '/^BugZyro-([0-9]+)\.([0-9]+)(?:\.([0-9]+))?(?:-((a|alpha|b|beta|pre|rc)[0-9]+)?)?$/';
 
         preg_match($pattern, $a, $ma);
         preg_match($pattern, $b, $mb);

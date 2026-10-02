@@ -181,7 +181,7 @@ class UtilTest extends TestCase
               [
                 'driver' => 'pdo_mysql',
                 'host' => 'localhost',
-                'dbname' => 'espocrm',
+                'dbname' => 'bugzyro',
                 'user' => 'root',
                 'password' => '',
               ],
@@ -197,7 +197,7 @@ class UtilTest extends TestCase
               [
                 'driver' => 'pdo_mysql',
                 'host' => 'localhost',
-                'dbname' => 'espocrm',
+                'dbname' => 'bugzyro',
                 'user' => 'root',
                 'password' => 'MyPass',
               ],

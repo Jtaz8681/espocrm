@@ -68,7 +68,7 @@ class ConfigTest extends TestCase
         $result = [
             'driver' => 'pdo_mysql',
             'host' => 'localhost',
-            'dbname' => 'espocrm',
+            'dbname' => 'bugzyro',
             'user' => 'root',
             'password' => '',
         ];

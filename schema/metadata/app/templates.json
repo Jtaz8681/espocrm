@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/smsProviders.json",
+    "$id": "#",
     "title": "app/smsProviders",
     "description": "Templates (available at Administration > Templates). Usually used for system emails.",
     "type": "object",

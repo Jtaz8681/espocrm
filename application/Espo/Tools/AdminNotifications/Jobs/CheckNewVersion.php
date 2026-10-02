@@ -24,7 +24,7 @@ use Espo\Core\Utils\Config\ConfigWriter;
 use Espo\Tools\AdminNotifications\LatestReleaseDataRequester;
 
 /**
- * Checking for a new EspoCRM version.
+ * Checking for a new BugZyro version.
  */
 class CheckNewVersion implements JobDataLess
 {

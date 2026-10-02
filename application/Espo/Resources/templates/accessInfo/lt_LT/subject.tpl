@@ -1,1 +1,1 @@
-EspoCRM vartotojo prieigos informacija
+BugZyro vartotojo prieigos informacija

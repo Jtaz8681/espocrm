@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/recordId.json",
+    "$id": "#",
     "title": "app/recordId",
     "description": "Record ID definitions.",
     "type": "object",

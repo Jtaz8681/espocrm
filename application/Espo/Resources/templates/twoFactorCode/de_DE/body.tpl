@@ -1,3 +1,3 @@
-<p>Geben Sie folgenden Code ein, um sich bei EspoCRM anzumelden.</p>
+<p>Geben Sie folgenden Code ein, um sich bei BugZyro anzumelden.</p>
 
 <p>Code: <strong>{{code}}</strong></p>

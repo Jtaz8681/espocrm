@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/complexExpression.json",
+    "$id": "#",
     "title": "app/complexExpression",
     "description": "Definitions for the complex expression editor.",
     "type": "object",

@@ -80,7 +80,7 @@ class System
     }
 
     /**
-     * Get a root directory of EspoCRM.
+     * Get a root directory of BugZyro.
      */
     public function getRootDir(): string
     {

@@ -200,7 +200,7 @@ $smarty->assign('logoSrc', $installer->getLogoSrc($theme));
 $loaderParamsProvider = $installer->getInjectableFactory()->create(LoaderParamsProvider::class);
 
 if (!empty($actionFile) && file_exists('install/core/tpl/' . $tplName)) {
-    /* check if EspoCRM is built */
+    /* check if BugZyro is built */
     $isBuilt = file_exists('client/lib/espo.js');
 
     $smarty->assign('isBuilt', $isBuilt);

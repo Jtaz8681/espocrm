@@ -1,6 +1,6 @@
 {
   "labels": {
-    "Main page title": "ایسپو سی آر ایم (EspoCRM) میں خوش آمدید",
+    "Main page title": "ایسپو سی آر ایم (BugZyro) میں خوش آمدید",
     "Start page title": "لائسنس کا معاہدہ",
     "Step1 page title": "لائسنس کا معاہدہ",
     "License Agreement": "لائسنس کا معاہدہ",
@@ -11,7 +11,7 @@
     "Step5 page title": "سبکدوش ہونے والے ای میلز کے لئے ایس ایم ٹی پی کی ترتیبات",
     "Errors page title": "غلطیاں",
     "Finish page title": "تنصیب مکمل ہے",
-    "Congratulation! Welcome to EspoCRM": "مبارکباد! EspoCRM کو کامیابی کے ساتھ انسٹال کیا گیا ہے.",
+    "Congratulation! Welcome to BugZyro": "مبارکباد! BugZyro کو کامیابی کے ساتھ انسٹال کیا گیا ہے.",
     "More Information": "مزید معلومات کے لئے ، براہ کرم ہمارا {بلاگ} ملاحظہ کریں ، {ٹویٹر} پر ہماری پیروی کریں۔ <br> <br> اگر آپ کے پاس کوئی مشورے یا سوالات ہیں تو ، براہ کرم {فورم} پر پوچھیں۔",
     "share": "اگر آپ کو ایسپوکرم پسند ہے تو ، اسے اپنے دوستوں کے ساتھ شیئر کریں۔ انہیں اس پروڈکٹ کے بارے میں بتائیں۔",
     "blog": "بلاگ",
@@ -26,7 +26,7 @@
     "Start": "شروع کریں",
     "Back": "واپس",
     "Next": "اگلا",
-    "Go to EspoCRM": "ایسپروکم پر جائیں",
+    "Go to BugZyro": "ایسپروکم پر جائیں",
     "Re-check": "دوبارہ چیک کریں",
     "Version": "ورژن",
     "Test settings": "ٹیسٹ کنکشن",
@@ -46,7 +46,7 @@
     "Fail": "ناکام",
     "is recommended": "سفارش کی جاتی ہے",
     "extension is missing": "توسیع غائب ہے",
-    "headerTitle": "Espocrm تنصیب",
+    "headerTitle": "BugZyro تنصیب",
     "Crontab setup instructions": "شیڈول ملازمتوں کو چلانے کے بغیر ان باؤنڈ ای میلز ، اطلاعات اور یاد دہانیاں کام نہیں کریں گی۔ یہاں آپ {setup_instructions} پڑھ سکتے ہیں۔",
     "Setup instructions": "سیٹ اپ ہدایات",
     "requiredMysqlVersion": "ایس کیو ایل ورژن",
@@ -112,7 +112,7 @@
     "Thousand Separator and Decimal Mark equal": "ہزار جداکار اور اعشاریہ نشان برابر نہیں ہوسکتا",
     "extension": "{0} توسیع غائب ہے",
     "option": "تجویز کردہ قیمت {0} ہے",
-    "mysqlSettingError": "ESPOCRM کو {ویلیو} پر سیٹ کرنے کے لئے ایس کیو ایل کی ترتیب \"{نام}\" کی ضرورت ہے",
+    "mysqlSettingError": "BugZyro کو {ویلیو} پر سیٹ کرنے کے لئے ایس کیو ایل کی ترتیب \"{نام}\" کی ضرورت ہے",
     "requiredMariadbVersion": "آپ کے ماریاڈ بی ورژن کو ایس پی او سی آر ایم کے ذریعہ تائید نہیں کی گئی ہے ، براہ کرم ماریاڈ بی {منورشن} کم از کم اپ ڈیٹ کریں",
     "Ajax failed": "ایک غیر متوقع غلطی واقع ہوئی",
     "Bad init Permission": "{*}\" ڈائرکٹری کے لئے اجازت سے انکار کیا گیا۔ براہ کرم \"{*}\" کے لئے 775 سیٹ کریں یا صرف اس کمانڈ کو ٹرمینل <پری> <b> {C} </b> </pre> آپریشن کی اجازت نہیں ہے؟ اس کو آزمائیں: {CSU}",
@@ -125,14 +125,14 @@
       "pdo_mysql": "pdo mysql"
     },
     "modRewriteTitle": {
-      "apache": "<h3> API کی خرابی: ESPOCRM API دستیاب نہیں ہے۔ </h3> <br> صرف ضروری اقدامات کریں۔ ہر قدم کے بعد چیک کریں کہ کیا مسئلہ حل ہے۔",
-      "nginx": "<h3> API کی خرابی: ESPOCRM API دستیاب نہیں ہے۔ </h3>",
-      "microsoft-iis": "<h3> API کی خرابی: ESPOCRM API دستیاب نہیں ہے۔ </h3> <br> ممکنہ مسئلہ:دوبارہ لکھنے\" کا ماڈیول بند ہوگا \"URL دوبارہ لکھو\"۔ براہ کرم IIS سرور میں \"URL دوبارہ لکھنے\" کے ماڈیول کو چیک اور چالو کریں",
-      "default": "<h3> API کی خرابی: ESPOCRM API دستیاب نہیں ہے۔ </h3> <br> ممکنہ مسائل:  دوبارہ لکھنا ماڈیول بند ۔ براہ کرم اپنے سرور میں دوبارہ لکھنے والے ماڈیول کو چیک کریں اور ان کو فعال کریں (جیسے اپاچی میں Mod_rewrite) اور .htaccess سپورٹ۔"
+      "apache": "<h3> API کی خرابی: BugZyro API دستیاب نہیں ہے۔ </h3> <br> صرف ضروری اقدامات کریں۔ ہر قدم کے بعد چیک کریں کہ کیا مسئلہ حل ہے۔",
+      "nginx": "<h3> API کی خرابی: BugZyro API دستیاب نہیں ہے۔ </h3>",
+      "microsoft-iis": "<h3> API کی خرابی: BugZyro API دستیاب نہیں ہے۔ </h3> <br> ممکنہ مسئلہ:دوبارہ لکھنے\" کا ماڈیول بند ہوگا \"URL دوبارہ لکھو\"۔ براہ کرم IIS سرور میں \"URL دوبارہ لکھنے\" کے ماڈیول کو چیک اور چالو کریں",
+      "default": "<h3> API کی خرابی: BugZyro API دستیاب نہیں ہے۔ </h3> <br> ممکنہ مسائل:  دوبارہ لکھنا ماڈیول بند ۔ براہ کرم اپنے سرور میں دوبارہ لکھنے والے ماڈیول کو چیک کریں اور ان کو فعال کریں (جیسے اپاچی میں Mod_rewrite) اور .htaccess سپورٹ۔"
     },
     "modRewriteInstruction": {
       "apache": {
-        "linux": "<br> <br> <h4> 1۔ \"Mod_rewrite\" کو فعال کریں۔ </h4> <i> Mod_rewrite </i> کو قابل بنانے کے ل these ، ان کمانڈز کو ٹرمینل میں چلائیں: <br> <br> <br> <pre> {apache1} </pre> <hr> <h4> 2۔ اگر پچھلے مرحلے میں مدد نہیں ملی تو ، .htaccess کی حمایت کو قابل بنانے کی کوشش کریں۔\n اس کے بعد اس کمانڈ کو ایک ٹرمینل میں چلائیں: <br> <br> <br> <pre> {apache3} </pre> <hr> <h4> 3۔ If the previous step did not help, try to add the RewriteBase path.</h4>Open a file <code>{API_PATH}.htaccess</code> and replace the following line:<br><br><pre>{APACHE4}</pre>To<br><br><pre>{APACHE5}</pre><hr>For more information please visit the guideline <a href = \"{apache_link}\" ہدف = \"_ خالی\"> اپاچی سرور کی تشکیل Espocrm کے لئے </a>. <br> <br>",
+        "linux": "<br> <br> <h4> 1۔ \"Mod_rewrite\" کو فعال کریں۔ </h4> <i> Mod_rewrite </i> کو قابل بنانے کے ل these ، ان کمانڈز کو ٹرمینل میں چلائیں: <br> <br> <br> <pre> {apache1} </pre> <hr> <h4> 2۔ اگر پچھلے مرحلے میں مدد نہیں ملی تو ، .htaccess کی حمایت کو قابل بنانے کی کوشش کریں۔\n اس کے بعد اس کمانڈ کو ایک ٹرمینل میں چلائیں: <br> <br> <br> <pre> {apache3} </pre> <hr> <h4> 3۔ If the previous step did not help, try to add the RewriteBase path.</h4>Open a file <code>{API_PATH}.htaccess</code> and replace the following line:<br><br><pre>{APACHE4}</pre>To<br><br><pre>{APACHE5}</pre><hr>For more information please visit the guideline <a href = \"{apache_link}\" ہدف = \"_ خالی\"> اپاچی سرور کی تشکیل BugZyro کے لئے </a>. <br> <br>",
         "windows": "<br> <br> <h4> 1۔ httpd.conf فائل تلاش کریں۔ </h4> عام طور پر یہ \"کنف\" ، \"کنفیگر\" یا ان لائنوں کے ساتھ کچھ اور نامی فولڈر میں پایا جاسکتا ہے۔ <br> <br> <h4> 2۔ httpd.conf فائل میں ترمیم کریں۔ دوسروں کے پیرامیٹرز کو چیک کریں۔"
       },
       "nginx": {

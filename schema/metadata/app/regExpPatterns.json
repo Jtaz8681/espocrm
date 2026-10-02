@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/regExpPatterns.json",
+    "$id": "#",
     "title": "app/regExpPatterns",
     "description": "Predefined regular expression patterns. Predefined patterns can be used for field validation.",
     "type": "object",

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/authentication2FAMethods.json",
+    "$id": "#",
     "title": "app/authentication2FAMethods",
     "description": "Definitions for 2-factor authentication methods.",
     "type": "object",

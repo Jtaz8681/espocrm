@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/hook.json",
+    "$id": "#",
     "title": "app/hook",
     "description": "Definitions for the Hook framework.",
     "type": "object",

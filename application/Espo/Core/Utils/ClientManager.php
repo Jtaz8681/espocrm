@@ -47,11 +47,11 @@ class ClientManager
     private string $favicon = 'client/img/favicon.svg';
     private string $basePath = '';
     private string $apiUrl = 'api/v1';
-    private string $applicationId = 'espocrm';
+    private string $applicationId = 'bugzyro';
 
     private string $nonce;
 
-    private const APP_DESCRIPTION = "EspoCRM – Open Source CRM application.";
+    private const APP_DESCRIPTION = "BugZyro – Open Source CRM application.";
 
     public function __construct(
         private Config $config,
@@ -240,7 +240,7 @@ class ClientManager
         $data = [
             'applicationId' => $this->applicationId,
             'apiUrl' => $this->apiUrl,
-            'applicationName' => $this->escapeValue($pageTitle ?? $this->config->get('applicationName', 'EspoCRM')),
+            'applicationName' => $this->escapeValue($pageTitle ?? $this->config->get('applicationName', 'BugZyro')),
             'cacheTimestamp' => $cacheTimestamp,
             'appTimestamp' => $appTimestamp,
             'loaderCacheTimestamp' => Json::encode($loaderCacheTimestamp),

@@ -360,7 +360,7 @@ class Installer
      *     [
      *       'driver' => 'pdo_mysql',
      *       'host' => 'localhost',
-     *       'dbname' => 'espocrm_test',
+     *       'dbname' => 'bugzyro_test',
      *       'user' => 'root',
      *       'password' => '',
      *     ]

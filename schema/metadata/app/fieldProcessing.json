@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/fieldProcessing.json",
+    "$id": "#",
     "title": "app/fieldProcessing",
     "description": "Definitions for the Field Processing framework.",
     "type": "object",

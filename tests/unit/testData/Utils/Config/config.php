@@ -9,14 +9,14 @@ return array (
   array (
     'driver' => 'pdo_mysql',
     'host' => 'localhost',
-    'dbname' => 'espocrm',
+    'dbname' => 'bugzyro',
     'user' => 'root',
     'password' => '',
   ),
   'useCache' => false,
   'recordsPerPage' => 20,
   'recordsPerPageSmall' => 5,
-  'applicationName' => 'EspoCRM',
+  'applicationName' => 'BugZyro',
   'version' => '1.0',
   'timeZone' => 'UTC',
   'dateFormat' => 'YYYY-MM-DD',
@@ -39,7 +39,7 @@ return array (
     ),
   ),
   'outboundEmailIsShared' => true,
-  'outboundEmailFromName' => 'EspoCRM',
+  'outboundEmailFromName' => 'BugZyro',
   'outboundEmailFromAddress' => '',
   'languageList' =>
   array (

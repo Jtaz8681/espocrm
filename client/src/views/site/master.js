@@ -115,7 +115,7 @@ class MasterSiteView extends View {
         if (footerView) {
             const html = footerView.$el.html() || '';
 
-            if ((html.match(/espocrm/gi) || []).length < 2) {
+            if ((html.match(/bugzyro/gi) || []).length < 2) {
                 const text = 'PHAgY2xhc3M9ImNyZWRpdCBzbWFsbCI+JmNvcHk7IDxhIGhyZWY9Imh0dHA6Ly93d3cuZXNwb2Nyb' +
                     'S5jb20iPkVzcG9DUk08L2E+PC9wPg==';
 

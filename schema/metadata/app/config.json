@@ -1,13 +1,13 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/config.json",
+    "$id": "#",
     "title": "app/config",
     "description": "Application config definitions.",
     "type": "object",
     "properties": {
         "params": {
             "type": "object",
-            "description": "Config parameters. https://docs.espocrm.com/development/metadata/app-config/#params",
+            "description": "Config parameters. #",
             "additionalProperties": {
                 "type": "object",
                 "description": "A config parameter name.",

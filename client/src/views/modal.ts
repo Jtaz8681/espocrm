@@ -152,7 +152,7 @@ export {
 /**
  * A base modal view. Can be extended or used directly.
  *
- * @see https://docs.espocrm.com/development/modal/
+ * @see #
  */
 class ModalView<S extends ViewSchema = ViewSchema> extends View<S> {
 

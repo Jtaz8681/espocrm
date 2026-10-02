@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/entityAcl.json",
+    "$id": "#",
     "title": "entityAcl",
     "description": "ACL definitions for fields and links of an entity type.",
     "type": "object",

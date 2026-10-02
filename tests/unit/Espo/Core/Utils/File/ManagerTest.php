@@ -503,9 +503,9 @@ class ManagerTest extends TestCase
             [realpath('application/Espo/Core'), 'application/Espo/Core'],
             [realpath('application/Espo/Core') . '/', 'application/Espo/Core/'],
             [realpath('application/Espo/Core/Application.php'), 'application/Espo/Core/Application.php'],
-            ['C:\\espocrm\\data\\config.php', 'data\\config.php', 'C:\\espocrm', '\\'],
-            ['C:espocrm\\data\\config.php', 'data\\config.php', 'C:espocrm', '\\'],
-            ['C:\\espocrm\\data\\tmp\\' . basename($tmpFile), 'data\\tmp\\' . basename($tmpFile), 'C:\\espocrm', '\\'],
+            ['C:\\bugzyro\\data\\config.php', 'data\\config.php', 'C:\\bugzyro', '\\'],
+            ['C:bugzyro\\data\\config.php', 'data\\config.php', 'C:bugzyro', '\\'],
+            ['C:\\bugzyro\\data\\tmp\\' . basename($tmpFile), 'data\\tmp\\' . basename($tmpFile), 'C:\\bugzyro', '\\'],
         ];
 
         @unlink($tmpFile);

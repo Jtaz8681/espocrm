@@ -65,7 +65,7 @@ class Help implements Command
 
         $io->writeLine("");
 
-        $io->writeLine("Documentation: https://docs.espocrm.com/administration/commands/");
+        $io->writeLine("Documentation: #");
 
         $io->writeLine("");
     }

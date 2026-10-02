@@ -170,7 +170,7 @@ class Install extends Base
             $this->throwErrorAndRemovePackage('Cannot delete files.');
         }
 
-        /* copy files from directory "Files" to EspoCRM files */
+        /* copy files from directory "Files" to BugZyro files */
         if (!$this->copyFiles()) {
             $this->throwErrorAndRemovePackage('Cannot copy files.');
         }
@@ -198,7 +198,7 @@ class Install extends Base
 
         if (!isset($data['skipSystemRebuild']) || !$data['skipSystemRebuild']) {
             if (!$this->systemRebuild()) {
-                $this->throwErrorAndRemovePackage('Error occurred while EspoCRM rebuild. More detail in the log.');
+                $this->throwErrorAndRemovePackage('Error occurred while BugZyro rebuild. More detail in the log.');
             }
         }
 

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/relationships.json",
+    "$id": "#",
     "title": "app/relationships",
     "description": "Definitions of specific named relationships.",
     "type": "object",

@@ -1,7 +1,7 @@
 <p class="credit small">&copy; 2026
 <a
-    href="https://www.espocrm.com"
-    title="Powered by EspoCRM"
+    href="#"
+    title="Powered by BugZyro"
     rel="noopener" target="_blank"
     tabindex="-1"
->EspoCRM, Inc.</a></p>
+>BugZyro, Inc.</a></p>

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/clientDefs.json",
+    "$id": "#",
     "title": "clientDefs",
     "description": "Dynamic logic for entity types.",
     "type": "object",

@@ -40,7 +40,7 @@ class PO
         this.baseLanguage = 'en_US';
         this.language = language || this.baseLanguage;
 
-        this.outputFileName = 'espocrm-' + this.language;
+        this.outputFileName = 'bugzyro-' + this.language;
 
         if (onlyModuleName) {
             this.outputFileName += '-' + onlyModuleName;

@@ -18,7 +18,7 @@
     "exampleRequestUrl": "有效負載",
     "exampleRequestPayload": "目標清單",
     "createLeadBeforeOptInConfirmation": "重複檢查",
-    "duplicateCheck": "您的帳戶規定的類型。有4個選項：\n\n- 'Dn'－以格式 'CN=tester,OU=espocrm,DC=test, DC=lan'.\n\n- 'Username'－以格式 'tester'.\n\n- 'Backslash'－以格式 'COMPANY\\tester'.\n\n- 'Principal'－以格式 'tester@company.com'.",
+    "duplicateCheck": "您的帳戶規定的類型。有4個選項：\n\n- 'Dn'－以格式 'CN=tester,OU=bugzyro,DC=test, DC=lan'.\n\n- 'Username'－以格式 'tester'.\n\n- 'Backslash'－以格式 'COMPANY\\tester'.\n\n- 'Principal'－以格式 'tester@company.com'.",
     "skipOptInConfirmationIfSubscribed": "SMTP帳號",
     "smtpAccount": "群組電子郵件帳戶",
     "inboundEmail": "群組電子郵件帳戶"

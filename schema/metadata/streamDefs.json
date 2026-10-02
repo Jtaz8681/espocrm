@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/streamDefs.json",
+    "$id": "#",
     "title": "pdfDefs",
     "description": "Stream definitions for a scope.",
     "type": "object",

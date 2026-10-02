@@ -20,7 +20,7 @@
  *
  * Command example: `node lang de_DE`.
  *
- * A PO file should be located in `build` directory: `build/espocrm-lang_CODE.po`.
+ * A PO file should be located in `build` directory: `build/bugzyro-lang_CODE.po`.
  * Language files will be created in `build` directory.
  *
  * You specify a module with `--module=` parameter. It will build only for the specified module.
@@ -53,7 +53,7 @@ if (process.argv.length > 2) {
 }
 
 if (!poPath) {
-    poPath = espoPath + '/build/' + 'espocrm-' + language;
+    poPath = espoPath + '/build/' + 'bugzyro-' + language;
 
     if (onlyModuleName) {
         poPath += '-' + onlyModuleName;

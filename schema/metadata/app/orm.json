@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/orm.json",
+    "$id": "#",
     "title": "app/orm",
     "description": "ORM definitions.",
     "type": "object",

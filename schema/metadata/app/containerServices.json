@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/containerServices.json",
+    "$id": "#",
     "title": "app/containerServices",
-    "description": "Definitions of container services. https://docs.espocrm.com/development/di/#container-services",
+    "description": "Definitions of container services. #",
     "type": "object",
     "additionalProperties": {
         "type": "object",

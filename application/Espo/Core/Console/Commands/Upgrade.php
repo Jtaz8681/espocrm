@@ -126,7 +126,7 @@ class Upgrade implements Command
         fwrite(STDOUT, "Current version is $fromVersion.\n");
 
         if (!$upgradeParams->skipConfirmation) {
-            fwrite(STDOUT, "EspoCRM will be upgraded to version $nextVersion now. Enter [Y] to continue.\n");
+            fwrite(STDOUT, "BugZyro will be upgraded to version $nextVersion now. Enter [Y] to continue.\n");
 
             if (!$this->confirm()) {
                 echo "Upgrade canceled.\n";
@@ -199,7 +199,7 @@ class Upgrade implements Command
      * Normalize params. Permitted options and flags and $arguments:
      * -y - without confirmation
      * -s - single process
-     * --file="EspoCRM-upgrade.zip"
+     * --file="BugZyro-upgrade.zip"
      * --step="beforeUpgradeScript"
      *
      * @param array<string, string> $options
@@ -424,7 +424,7 @@ class Upgrade implements Command
 
     private function getVersionInfo(?string $toVersion = null): ?stdClass
     {
-        $url = 'https://s.espocrm.com/upgrade/next/';
+        $url = '#';
         $url = $this->config->get('upgradeNextVersionUrl', $url);
         $url .= '?fromVersion=' . $this->config->get('version');
 

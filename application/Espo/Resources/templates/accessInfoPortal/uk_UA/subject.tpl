@@ -1,1 +1,1 @@
-Доступ до EspoCRM
+Доступ до BugZyro

@@ -27,11 +27,11 @@ export default class UpgradeIndexView extends View {
         return {
             versionMsg: this.translate('Current version') + ': ' + this.getConfig().get('version'),
             infoMsg: this.translate('upgradeInfo', 'messages', 'Admin')
-                .replace('{url}', 'https://www.espocrm.com/documentation/administration/upgrading/'),
+                .replace('{url}', '#'),
             backupsMsg: this.translate('upgradeBackup', 'messages', 'Admin'),
             upgradeRecommendation: this.translate('upgradeRecommendation', 'messages', 'Admin'),
             downloadMsg: this.translate('downloadUpgradePackage', 'messages', 'Admin')
-                .replace('{url}', 'https://www.espocrm.com/download/upgrades'),
+                .replace('{url}', '#'),
         };
     }
 

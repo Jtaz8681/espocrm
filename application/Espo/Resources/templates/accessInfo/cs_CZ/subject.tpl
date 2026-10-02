@@ -1,1 +1,1 @@
-EspoCRM Informace k uživatelskému přístupu
+BugZyro Informace k uživatelskému přístupu

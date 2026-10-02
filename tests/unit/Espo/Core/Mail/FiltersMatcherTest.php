@@ -196,14 +196,14 @@ class FiltersMatcherTest extends TestCase
         $filterList = [$filter];
         $this->assertNotNull($this->object->findMatch($email, $filterList));
 
-        $email->set('name', 'Access information to the EspoCRM cloud');
+        $email->set('name', 'Access information to the BugZyro cloud');
         $email->set('from', 'no-reply@test.com');
         $email->set('to', 'info@test.com');
 
         $filter = $this->createEntity('EmailFilter', EmailFilter::class, $this->filterDefs);
 
         $filter->set([
-            'subject' => 'Access information to the EspoCRM cloud',
+            'subject' => 'Access information to the BugZyro cloud',
             'from' => 'no-reply@test.com',
             'to' => 'info@test.com'
         ]);

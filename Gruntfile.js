@@ -147,13 +147,13 @@ module.exports = grunt => {
                 'client/lib/transpiled/**',
             ],
             start: [
-                'build/EspoCRM-*',
+                'build/BugZyro-*',
                 'client/lib/*',
                 'client/modules/crm/lib/*',
                 'client/css/espo/*',
             ],
             final: ['build/tmp'],
-            release: ['build/EspoCRM-' + pkg.version],
+            release: ['build/BugZyro-' + pkg.version],
             beforeFinal: {src: cleanupBeforeFinal},
             beforeFinalTest: {src: cleanupBeforeFinalTest},
         },
@@ -247,7 +247,7 @@ module.exports = grunt => {
                 dot: true,
                 src: '**',
                 cwd: 'build/tmp',
-                dest: 'build/EspoCRM-<%= pkg.version %>/',
+                dest: 'build/BugZyro-<%= pkg.version %>/',
             },
         },
 
@@ -342,12 +342,12 @@ module.exports = grunt => {
     grunt.registerTask('chmod-folders', () => {
         cp.execSync(
             "find . -type d -exec chmod 755 {} +",
-            {cwd: 'build/EspoCRM-' + pkg.version}
+            {cwd: 'build/BugZyro-' + pkg.version}
         );
     });
 
     grunt.registerTask('chmod-multiple', () => {
-        const dirPath = 'build/EspoCRM-' + pkg.version;
+        const dirPath = 'build/BugZyro-' + pkg.version;
 
         const fileList = [
             {
@@ -468,7 +468,7 @@ module.exports = grunt => {
 
         const resolve = this.async();
 
-        const folder = 'EspoCRM-' + pkg.version;
+        const folder = 'BugZyro-' + pkg.version;
         const zipPath = 'build/' + folder + '.zip';
 
         if (fs.existsSync(zipPath)) {
@@ -484,7 +484,7 @@ module.exports = grunt => {
         const zipOutput = fs.createWriteStream(zipPath);
 
         zipOutput.on('close', () => {
-            console.log("EspoCRM package has been built.");
+            console.log("BugZyro package has been built.");
 
             resolve();
         });

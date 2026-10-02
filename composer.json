@@ -1,8 +1,8 @@
 {
-    "name": "espocrm/espocrm",
-    "description": "EspoCRM. Open source CRM application.",
+    "name": "bugzyro/bugzyro",
+    "description": "BugZyro. Open source CRM application.",
     "type": "project",
-    "homepage": "https://github.com/espocrm/espocrm.git",
+    "homepage": "https://github.com/bugzyro/bugzyro.git",
     "license": "AGPL-3.0-or-later",
     "require": {
         "php": ">=8.3.0 <8.6.0",

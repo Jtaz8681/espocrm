@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/entityTemplates.json",
+    "$id": "#",
     "title": "app/entityTemplates",
     "description": "Definitions for entity templates.",
     "type": "object",

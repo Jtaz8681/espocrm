@@ -104,7 +104,7 @@
             <div class="pull-right">
                 <a
                     target="_blank"
-                    href="https://docs.espocrm.com/administration/server-configuration/"
+                    href="#"
                 ><strong>{{translate 'Configuration Instructions' scope='Admin'}}</strong></a>
             </div>
         </div>

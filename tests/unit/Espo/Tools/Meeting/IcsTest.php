@@ -25,7 +25,7 @@ class IcsTest extends TestCase
 {
     public function testIcs1(): void
     {
-        $ics = new Ics('//EspoCRM//EspoCRM Calendar//EN', [
+        $ics = new Ics('//BugZyro//BugZyro Calendar//EN', [
             'method' => Ics::METHOD_REQUEST,
             'status' => Ics::STATUS_CONFIRMED,
             'startDate' => strtotime('2025-01-01 10:00:00'),
@@ -44,7 +44,7 @@ class IcsTest extends TestCase
         $expected =
             "BEGIN:VCALENDAR\r\n".
             "VERSION:2.0\r\n".
-            "PRODID:-//EspoCRM//EspoCRM Calendar//EN\r\n".
+            "PRODID:-//BugZyro//BugZyro Calendar//EN\r\n".
             "METHOD:REQUEST\r\n".
             "BEGIN:VEVENT\r\n".
             "DTSTART:20250101T100000Z\r\n".

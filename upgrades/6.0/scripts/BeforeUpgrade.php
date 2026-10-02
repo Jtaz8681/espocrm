@@ -58,7 +58,7 @@ class BeforeUpgrade
 
             if (version_compare($version, '1.4.2', '<')) {
                 $message =
-                    "EspoCRM 6.0.0 is not compatible with Google Integration extension of a version lower than 1.4.2. " .
+                    "BugZyro 6.0.0 is not compatible with Google Integration extension of a version lower than 1.4.2. " .
                     "Please upgrade the extension or uninstall it. Then run the upgrade command again.";
 
                 throw new Error($message);
@@ -77,7 +77,7 @@ class BeforeUpgrade
 
             if (version_compare($version, '1.4.0', '<')) {
                 $message =
-                    "EspoCRM 6.0.0 is not compatible with Real Estate extension of a version lower than 1.4.0. " .
+                    "BugZyro 6.0.0 is not compatible with Real Estate extension of a version lower than 1.4.0. " .
                     "Please upgrade the extension or uninstall it. Then run the upgrade command again.";
 
                 throw new Error($message);
@@ -96,7 +96,7 @@ class BeforeUpgrade
 
             if (version_compare($version, '1.15.0', '<')) {
                 $message =
-                    "EspoCRM 6.0.0 is not compatible with VoIP Integration extension of a version lower than 1.15.0. " .
+                    "BugZyro 6.0.0 is not compatible with VoIP Integration extension of a version lower than 1.15.0. " .
                     "Please upgrade the extension or uninstall it. Then run the upgrade command again.";
 
                 throw new Error($message);
@@ -118,7 +118,7 @@ class BeforeUpgrade
 
         $lineBreak = $isCli ? "\n" : "<br>";
 
-        $link = "https://www.espocrm.com/blog/converting-myisam-engine-to-innodb";
+        $link = "#";
 
         $linkString = $isCli ? $link : "<a href=\"{$link}\" target=\"_blank\">link</a>";
 

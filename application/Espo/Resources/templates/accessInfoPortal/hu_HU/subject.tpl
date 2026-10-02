@@ -1,1 +1,1 @@
-EspoCRM felhasználói hozzáférési információ
+BugZyro felhasználói hozzáférési információ

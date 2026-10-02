@@ -1,1 +1,1 @@
-<p class="credit small">&copy; 2025 <a href="https://www.espocrm.com">EspoCRM, Inc.</a></p>
+<p class="credit small">&copy; 2025 <a href="#">BugZyro, Inc.</a></p>

@@ -504,7 +504,7 @@ class DataUtilTest extends \PHPUnit\Framework\TestCase
             'database' => (object) [
                 'driver' => 'pdo_mysql',
                 'host' => 'localhost',
-                'dbname' => 'espocrm',
+                'dbname' => 'bugzyro',
                 'user' => 'root',
                 'password' => '',
             ],
@@ -518,7 +518,7 @@ class DataUtilTest extends \PHPUnit\Framework\TestCase
             'database' => (object) [
                 'driver' => 'pdo_mysql',
                 'host' => 'localhost',
-                'dbname' => 'espocrm',
+                'dbname' => 'bugzyro',
                 'user' => 'root',
                 'password' => 'MyPass',
             ],

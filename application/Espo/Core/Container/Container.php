@@ -25,7 +25,7 @@ use ReflectionClass;
 
 /**
  * DI container for services. Lazy initialization is used. Services are instantiated only once.
- * @see https://docs.espocrm.com/development/di/.
+ * @see #
  */
 interface Container extends ContainerInterface
 {

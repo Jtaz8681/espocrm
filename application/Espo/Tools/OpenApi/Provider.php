@@ -96,10 +96,10 @@ class Provider
 
     private function buildData(Params $params): stdClass
     {
-        $title = 'EspoCRM API';
+        $title = 'BugZyro API';
 
         if ($params->module) {
-            $title = "EspoCRM · $params->module API";
+            $title = "BugZyro · $params->module API";
         }
 
         $spec = (object) [

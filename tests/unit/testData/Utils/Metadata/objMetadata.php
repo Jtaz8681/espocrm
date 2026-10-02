@@ -3315,7 +3315,7 @@ return (object) [
                 ],
                 'outboundEmailFromName' => (object) [
                     'type' => 'varchar',
-                    'default' => 'EspoCRM',
+                    'default' => 'BugZyro',
                     'trim' => true
                 ],
                 'outboundEmailFromAddress' => (object) [

@@ -43,7 +43,7 @@ class LayoutManager {
          * @private
          * @type {string}
          */
-        this.applicationId = applicationId || 'espocrm';
+        this.applicationId = applicationId || 'bugzyro';
 
         /**
          * @private

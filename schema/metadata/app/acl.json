@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://www.espocrm.com/schema/metadata/app/acl.json",
+    "$id": "#",
     "title": "app/acl",
     "description": "Access control level parameters for the system (excluding portals).",
     "type": "object",
